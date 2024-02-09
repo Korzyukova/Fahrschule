@@ -1,16 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 
 
 body {
   background-color: #DAD6CE;
   margin-left: 3vw;
   margin-right: 3vw;
+
 }
 .header {
   display: flex;
-  margin-top: 7vh;
+  margin-top: 4vh;
   justify-content: space-between;
 }
 
@@ -20,12 +23,12 @@ body {
   margin-top: 30px;
 }
 .header-picture {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   width: 95vw;
-  height: 30vh;
+  /* height: 35vh; */
 }
 .link {
-  font-family: 'Raleway';
+  font-family: 'Train One', system-ui;
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
@@ -46,4 +49,51 @@ body {
 .links {
   align-self: flex-end;
   margin-bottom: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* width: 85vw; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* width: 85vw; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+.footer-info {
+  display: flex;
+}
+.footer-string {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  margin-right: 3em;
+}
+.footer-string:last-child {
+  margin-right: 0;
+}
+
+.footer-icon {
+  width: 1.5vw;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+footer-copyright {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
