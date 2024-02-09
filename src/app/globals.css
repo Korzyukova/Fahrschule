@@ -2,11 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-.font {
-font-size: 1.5em;
-text-decoration: none;
-color:blue
-}
+
 body {
   background-color: #DAD6CE;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.header {
+  display: flex;
+  margin-top: 7vh;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 25vw;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+.header-picture {
+  margin-top: 10px;
+  width: 95vw;
+  height: 30vh;
+}
+.link {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 28px;
+  text-decoration: none;
+  color: #403838;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+.link:hover  {
+  background-color: #327D89;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+  align-self: flex-end;
+  margin-bottom: 40px;
 }
