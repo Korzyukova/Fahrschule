@@ -24,8 +24,8 @@ export default function Contact() {
                     </div>
                     <p>Mit den Öffentlichen kannst du uns bequem erreichen:</p>
                     <p className='bus'>U4 / U5  Schwanthalerhöhe</p>
-                      <p className='bus'>S7 / S20  Heimeranplatz</p>
-                        <p className='bus'>Bus 53  Bergmannstraße</p>
+                    <p className='bus'>S7 / S20  Heimeranplatz</p>
+                    <p className='bus'>Bus 53  Bergmannstraße</p>
                 </div>
             </div>
             <Footer />

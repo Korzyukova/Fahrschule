@@ -55,7 +55,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  /* width: 85vw; */
+  /* width: 100%;  */
   margin-top: 50px;
   margin-bottom: 50px;
   font-style: normal;
@@ -129,7 +129,7 @@ body {
 .red-square {
   background-color: #CA5153;
   width: 40vw; 
-  height: 55vh; 
+  /* height: 55vh;  */
   position: absolute;
   top: -2em; 
   right: 2em; 
@@ -286,3 +286,96 @@ body {
   width: 40vw; 
   text-align: left;
 }
+.burger-menu {
+  position: fixed;
+  right: -250px;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #98BEC4;
+  padding: 20px;
+  transition: right 0.3s ease;
+}
+
+.burger-menu a {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.burger-button {
+  display: block;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .burger-button {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .links {
+    display: none;
+  }
+  .red-square {
+  width: 94vw;
+  height: 15vh; 
+  position: absolute;
+  top: -8em; 
+  right: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .square-text-one {
+  margin-bottom: 0;
+  }
+  .square-text-two {
+    margin-bottom: 0;
+    }
+    .square-text-three {
+      margin-bottom: 0;
+      }
+      .square-text-four {
+        margin-bottom: 0;
+        }
+  .container-one {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom:0; 
+    height: 10vh;
+  }
+  .container-text {
+   width: 80vw;
+   font-size: 1em;
+  }
+  .header-picture{
+    margin-bottom: 6vh;
+  }
+  .footer{
+    font-size: 0.5em;
+  }
+}
+
+
+ @media (max-width: 1000px) {
+  .footer-info {
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .footer-string {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+ }
+ @media (max-width: 1400px) {
+  .container-one {
+    height: 40vh;
+  }
+ }
