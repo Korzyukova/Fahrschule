@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { useState } from 'react';
+import logo from '/public/logo.png';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function Header() {
   return (
     <>
       <header className='header'>
-        <Image className='logo' src="/logo.png" alt="logo" width="280" height="85" />
+        <Image className='logo' src={logo} alt="logo" width="280" height="85" />
         <div className="links">
           <a className="link" href="/">Home</a>
           <a className="link" href="/about">About Us</a>
