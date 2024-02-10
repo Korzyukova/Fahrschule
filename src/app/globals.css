@@ -102,7 +102,7 @@ body {
 .container-one {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin-top: 10vh;
   margin-bottom:0; 
@@ -110,6 +110,7 @@ body {
   background-color: #F6F4F4;
   border-bottom: 3px solid #DAD6CE;
   position: relative;
+  text-align: center;
 }
 .container-two {
   display: flex;
@@ -130,5 +131,57 @@ body {
   top: -2em; 
   right: 2em; 
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
 
+.container-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  color: black;   
+  width: 40vw; 
+  position: absolute;
+  text-align: left;
+  margin-left: 2em; 
+}
+.red-square-text{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.square-text-one {
+  color: white;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  letter-spacing: 5px;
+  /* margin-bottom: 10em; */
+}
+.square-text-two {
+  color:#FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+}
+.square-text-three {
+  color:#0029FF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3vw;
+}
+.square-text-four {
+  color:#FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
 }
