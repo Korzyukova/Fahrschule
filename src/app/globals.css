@@ -10,6 +10,7 @@ body {
   margin-right: 3vw;
 
 }
+
 .header {
   display: flex;
   margin-top: 3vh;
@@ -22,12 +23,14 @@ body {
   align-self: flex-start;
   margin-top: 4vh;
 }
+
 .header-picture {
   /* margin-top: 10px; */
   width: 93.5vw;
   height: 100%;
   /* height: 35vh; */
 }
+
 .link {
   font-family: 'Raleway';
   font-style: normal;
@@ -43,8 +46,9 @@ body {
   border-radius: 10px;
   margin-left: 1em;
 }
-.link:hover  {
-  background-color:#98BEC4;
+
+.link:hover {
+  background-color: #98BEC4;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
@@ -52,6 +56,7 @@ body {
   align-self: flex-end;
   margin-bottom: 40px;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -75,9 +80,11 @@ body {
   font-size: 1.1em;
   line-height: 1.2em;
 }
+
 .footer-info {
   display: flex;
 }
+
 .footer-string {
   font-family: 'Raleway';
   display: flex;
@@ -86,6 +93,7 @@ body {
   /* margin-bottom: 10px; */
   margin-right: 3em;
 }
+
 .footer-string:last-child {
   margin-right: 0;
 }
@@ -98,28 +106,31 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+
 .footer-copyright {
   font-family: 'Train One', system-ui;
 }
+
 .container-one {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   margin-top: 10vh;
-  margin-bottom:0; 
+  margin-bottom: 0;
   height: 60vh;
   background-color: #F6F4F4;
   border-bottom: 3px solid #DAD6CE;
   position: relative;
   text-align: center;
 }
+
 .container-two {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 10vh;
   background-color: #F6F4F4;
   padding-top: 5vh;
@@ -128,11 +139,11 @@ body {
 
 .red-square {
   background-color: #CA5153;
-  width: 40vw; 
+  width: 40vw;
   /* height: 55vh;  */
   position: absolute;
-  top: -2em; 
-  right: 2em; 
+  top: -2em;
+  right: 2em;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -146,18 +157,20 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  color: black;   
-  width: 40vw; 
+  color: black;
+  width: 40vw;
   position: absolute;
   text-align: left;
-  margin-left: 2em; 
+  margin-left: 2em;
 }
-.red-square-text{
+
+.red-square-text {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
+
 .square-text-one {
   color: white;
   font-family: 'Raleway';
@@ -166,27 +179,31 @@ body {
   font-size: 2vw;
   letter-spacing: 5px;
 }
+
 .square-text-two {
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
 }
+
 .square-text-three {
-  color:#0029FF;
+  color: #0029FF;
   font-family: 'Ledger', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 3vw;
 }
+
 .square-text-four {
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
 }
+
 .container-two-paragraphs {
   margin-left: 1vw;
   padding-right: 3vw;
@@ -194,12 +211,13 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  color: black;   
-  width: 40vw; 
+  color: black;
+  width: 40vw;
   text-align: left;
   border-right: 3px solid rgb(49, 47, 47);
 }
-.container-two-years{
+
+.container-two-years {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -208,19 +226,21 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  color: black;   
+  color: black;
   width: 40vw;
-  margin-left: 2em; 
+  margin-left: 2em;
 }
+
 .years {
   margin: 0;
   font-family: 'Ledger', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15vw;
-  color: rgb(49, 47, 47);   
+  color: rgb(49, 47, 47);
   text-align: left;
 }
+
 .experience {
   font-family: 'Raleway';
   font-style: normal;
@@ -228,6 +248,7 @@ body {
   font-size: 2vw;
   color: black;
 }
+
 .container-two-about {
   margin-top: 10vh;
   display: flex;
@@ -239,28 +260,33 @@ body {
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
+
 .container-two-owners {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   width: 40vw;
-  margin-left: 5em; 
+  margin-left: 5em;
 }
+
 .owners-picture {
   margin: 0;
   width: 30vw;
   height: 100%;
   border-radius: 10px;
 }
+
 .burozeiten {
   margin-bottom: 0;
   margin-top: 0;
 }
+
 .bus {
   margin-bottom: 0;
   margin-top: 0;
 }
+
 .container-two-address {
   display: flex;
   flex-direction: column;
@@ -270,11 +296,12 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  color: black;   
+  color: black;
   width: 40vw;
-  padding-left: 2em; 
+  padding-left: 2em;
   border-left: 3px solid rgb(49, 47, 47);
 }
+
 .container-two-contact {
   margin-left: 1vw;
   padding-right: 3vw;
@@ -282,10 +309,11 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
-  color: black;   
-  width: 40vw; 
+  color: black;
+  width: 40vw;
   text-align: left;
 }
+
 .burger-menu {
   position: fixed;
   right: -250px;
@@ -311,71 +339,120 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 @media (min-width: 800px) {
   .burger-button {
     display: none;
   }
 }
+
 @media (max-width: 800px) {
   .links {
     display: none;
   }
+
   .red-square {
-  width: 94vw;
-  height: 15vh; 
-  position: absolute;
-  top: -8em; 
-  right: 0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    width: 94vw;
+    height: 15vh;
+    position: absolute;
+    top: -8em;
+    right: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
+
   .square-text-one {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
+
   .square-text-two {
     margin-bottom: 0;
-    }
-    .square-text-three {
-      margin-bottom: 0;
-      }
-      .square-text-four {
-        margin-bottom: 0;
-        }
+  }
+
+  .square-text-three {
+    margin-bottom: 0;
+  }
+
+  .square-text-four {
+    margin-bottom: 0;
+  }
+
   .container-one {
     flex-direction: row;
     align-items: center;
     margin-top: 10vh;
-    margin-bottom:0; 
+    margin-bottom: 0;
     height: 10vh;
   }
-  .container-text {
-   width: 80vw;
-   font-size: 1em;
+
+  .container-two {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
   }
-  .header-picture{
+
+  .container-two-paragraphs {
+    width: 80vw;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border-right: none;
+  }
+
+  .container-two-years {
+    font-size: 1em;
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .years {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .experience {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .container-text {
+    width: 80vw;
+    font-size: 1em;
+    margin-left: 0;
+  }
+
+  .header-picture {
     margin-bottom: 6vh;
   }
-  .footer{
+
+  .footer {
     font-size: 0.5em;
   }
 }
 
 
- @media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .footer-info {
     flex-direction: column;
     margin-right: 0;
   }
+
   .footer-string {
     margin-right: 0;
     margin-bottom: 5px;
   }
- }
- @media (max-width: 1400px) {
+}
+
+@media (max-width: 1400px) {
   .container-one {
     height: 40vh;
   }
- }
+}

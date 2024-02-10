@@ -16,7 +16,7 @@ export default function Header() {
     top: '0',
     width: '33%', // 33% of the viewport width
     height: '100%', // 100% of the viewport height
-    backgroundColor: '#DAD6CE', // Menu background color
+    backgroundColor: '#98BEC4', // Menu background color
     transition: 'left 0.3s ease', // Smooth transition for sliding effect
     padding: '20px', // Inner spacing
   };
