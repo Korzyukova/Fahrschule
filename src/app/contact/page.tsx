@@ -7,23 +7,25 @@ export default function Contact() {
             <Header />
 
             <div className="container-two-about">
-                <div className="container-two-paragraphs">
+                <div className="container-two-contact">
                     <p>Ruf uns gerne an oder schreibe uns eine E-Mail. Gerne beraten wir dich auch in einem persönlichen Gespräch.</p>
                 </div>
-                <div className="container-two-years">
+                <div className="container-two-address">
                     <p>Kazmairstraße 46, 80339 München</p>
 
                     <p>Tel: 089/ 62043082</p>
                     <p>Email: fahrschule-H2@gmx.de</p>
-                    <p>Bürozeiten:
-                        Montag und Mittwoch:
-                        10:00 – 12:30
-                        Dienstag und Donnerstag:
-                        15:00 – 18:30</p>
+                    <div>
+                        <p className='burozeiten'>Bürozeiten:</p>
+                        <p className='burozeiten'>Montag und Mittwoch:</p>
+                        <p className='burozeiten'>10:00 – 12:30</p>
+                        <p className='burozeiten'> Dienstag und Donnerstag:</p>
+                        <p className='burozeiten'>15:00 – 18:30</p>
+                    </div>
                     <p>Mit den Öffentlichen kannst du uns bequem erreichen:</p>
-                    <p>U4 / U5  Schwanthalerhöhe
-                        S7 / S20  Heimeranplatz
-                        Bus 53   Bergmannstraße</p>
+                    <p className='bus'>U4 / U5  Schwanthalerhöhe</p>
+                      <p className='bus'>S7 / S20  Heimeranplatz</p>
+                        <p className='bus'>Bus 53  Bergmannstraße</p>
                 </div>
             </div>
             <Footer />
