@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 
@@ -13,22 +10,24 @@ body {
 }
 .header {
   display: flex;
-  margin-top: 4vh;
+  margin-top: 3vh;
   justify-content: space-between;
 }
 
 .logo {
   width: 25vw;
+  height: 100%;
   align-self: flex-start;
-  margin-top: 30px;
+  margin-top: 4vh;
 }
 .header-picture {
   /* margin-top: 10px; */
-  width: 95vw;
+  width: 93.5vw;
+  height: 100%;
   /* height: 35vh; */
 }
 .link {
-  font-family: 'Train One', system-ui;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
@@ -40,9 +39,10 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease;
   border-radius: 10px;
+  margin-left: 1em;
 }
 .link:hover  {
-  background-color: #327D89;
+  background-color:#98BEC4;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
@@ -77,6 +77,7 @@ body {
   display: flex;
 }
 .footer-string {
+  font-family: 'Raleway';
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -88,12 +89,46 @@ body {
 }
 
 .footer-icon {
-  width: 1.5vw;
+  width: 2vw;
+  height: 100%;
   margin: 0;
   padding: 0;
   margin-right: 10px;
   margin-left: 10px;
 }
-footer-copyright {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.footer-copyright {
+  font-family: 'Train One', system-ui;
+}
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom:0; 
+  height: 60vh;
+  background-color: #F6F4F4;
+  border-bottom: 3px solid #DAD6CE;
+  position: relative;
+}
+.container-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:0;
+  margin-bottom: 10vh; 
+  height: 60vh;
+  background-color: #F6F4F4;
+}
+
+.red-square {
+  background-color: #CA5153;
+  width: 40vw; 
+  height: 55vh; 
+  position: absolute;
+  top: -2em; 
+  right: 2em; 
+  border-radius: 10px;
+
 }
