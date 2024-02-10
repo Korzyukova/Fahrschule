@@ -3,9 +3,9 @@ import Image from 'next/image';
 export default function Header() {
     const links = {
         link1: '/',
-        link2: '/about-us',
+        link2: '/about',
     
-        link3: '/contact-us',
+        link3: '/contact',
       }
     return (
         <>
