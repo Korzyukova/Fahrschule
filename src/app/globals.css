@@ -328,6 +328,7 @@ body {
   top: 10px;
   font-size: 30px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 @media (min-width: 800px) {
@@ -479,6 +480,10 @@ body {
     margin: 0;
     padding: 0;
     border-right: none;
+  }
+  .burger-button {
+    font-size: 25px;
+    border-radius: 5px;
   }
 }
 
