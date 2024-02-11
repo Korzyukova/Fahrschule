@@ -447,6 +447,12 @@ body {
   .footer {
     font-size: 0.5em;
   }
+  .container-two-about {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 
