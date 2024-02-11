@@ -323,7 +323,7 @@ body {
 
 .burger-button {
   display: block;
-  position: fixed;
+  position: absolute;
   right: 10px;
   top: 10px;
   font-size: 30px;
