@@ -312,6 +312,7 @@ body {
   background-color: #98BEC4;
   padding: 20px;
   transition: right 0.3s ease;
+  z-index: 10;
 }
 
 .burger-menu a {
