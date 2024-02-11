@@ -350,6 +350,11 @@ body {
   .links {
     display: none;
   }
+  .logo {
+    width: 30vw;
+    height: 100%;
+    margin-top: 0;
+  }
 
   .red-square {
     width: 94vw;
@@ -385,6 +390,8 @@ body {
   }
 
   .container-one {
+    margin: 0;
+    padding:0;
     flex-direction: row;
     align-items: center;
     margin-top: 10vh;
