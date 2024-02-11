@@ -436,11 +436,13 @@ body {
 
   .footer {
     font-size: 1em;
+    margin-top: 3vh;
+  margin-bottom: 3vh;
   }
 
   .footer-icon {
-    width: 8vw;
-    height: 90%;
+   width: 5vw;
+    height: 2vh;
     margin: 0;
     margin-right: 10px;
     padding: 0;
