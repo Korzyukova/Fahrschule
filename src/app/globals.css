@@ -465,6 +465,20 @@ body {
     border-left: none;
 
   }
+  .container-two-contact {
+    width: 80vw;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border-right: none;
+  }
+  .container-two-address {
+    width: 80vw;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border-right: none;
+  }
 }
 
 
