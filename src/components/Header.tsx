@@ -29,9 +29,9 @@ export default function Header() {
       <header className='header'>
         <Image className='logo' src={logo} alt="logo" width="280" height="85" />
         <div className="links">
-          <a className="link" href="/">Home</a>
-          <a className="link" href="/about.html">Über Uns</a>
-          <a className="link" href="/contact.html">Kontakt</a>
+          <a className="link" href="/Fahrschule">Home</a>
+          <a className="link" href="/Fahrschule/about">Über Uns</a>
+          <a className="link" href="/Fahrschule/contact">Kontakt</a>
         </div>
         <button onClick={toggleMenu} className="burger-button">☰</button>
       </header>
