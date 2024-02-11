@@ -508,9 +508,9 @@ body {
 /* Burger Menu Links Styling */
 #burger-menu a {
   display: inline-block; /* Align links next to each other */
-  width: 15px; /* Set width as specified */
-  height: 5px; /* Set height as specified */
-  background-color: #98BEC4; /* Button background color */
+  text-decoration: none;
+  height: 20px; /* Set height as specified */
+  background-color: #DAD6CE; /* Button background color */
   color: #FFFFFF; /* Button text color */
   text-align: center; /* Center text inside buttons */
   line-height: 5px; /* Center text vertically */
