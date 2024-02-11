@@ -21,6 +21,7 @@ export default function Header() {
     backgroundColor: '#98BEC4', // Menu background color
     transition: 'left 0.3s ease', // Smooth transition for sliding effect
     padding: '20px', // Inner spacing
+    zIndex: 10,
   };
 
   return (
