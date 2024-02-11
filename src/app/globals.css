@@ -505,3 +505,37 @@ body {
     height: 40vh;
   }
 }
+/* Burger Menu Links Styling */
+#burger-menu a {
+  display: inline-block; /* Align links next to each other */
+  width: 15px; /* Set width as specified */
+  height: 5px; /* Set height as specified */
+  background-color: #98BEC4; /* Button background color */
+  color: #FFFFFF; /* Button text color */
+  text-align: center; /* Center text inside buttons */
+  line-height: 5px; /* Center text vertically */
+  margin: 0 auto; /* Center buttons horizontally */
+  padding: 10px; /* Increase click area and visual size */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+#burger-menu a:hover {
+  background-color: #403838; /* Darken button on hover */
+}
+
+/* Centering Links Container within the Burger Menu */
+#burger-menu {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: center; /* Center links horizontally */
+  justify-content: center; /* Center links vertically */
+  height: 100%; /* Take full height of the menu */
+}
+
+/* Adjustments for Responsive Design */
+@media (max-width: 800px) {
+  #burger-menu {
+    width: 100%; /* Ensure menu takes full width on smaller screens */
+  }
+}
