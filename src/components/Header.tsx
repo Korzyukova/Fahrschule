@@ -29,8 +29,8 @@ export default function Header() {
         <Image className='logo' src={logo} alt="logo" width="280" height="85" />
         <div className="links">
           <a className="link" href="/">Home</a>
-          <a className="link" href="/about">About Us</a>
-          <a className="link" href="/contact">Contact Us</a>
+          <a className="link" href="/about">Über Uns</a>
+          <a className="link" href="/contact">Kontakt</a>
         </div>
         <button onClick={toggleMenu} className="burger-button">☰</button>
       </header>
