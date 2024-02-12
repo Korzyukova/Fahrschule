@@ -303,24 +303,6 @@ body {
   text-align: left;
 }
 
-.burger-menu {
-  position: fixed;
-  right: -250px;
-  top: 0;
-  width: 250px;
-  height: 100vh;
-  background-color: #98BEC4;
-  padding: 20px;
-  transition: right 0.3s ease;
-  z-index: 10;
-}
-
-.burger-menu a {
-  display: block;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
 .burger-button {
   display: block;
   position: absolute;
@@ -329,6 +311,7 @@ body {
   font-size: 30px;
   cursor: pointer;
   border-radius: 5px;
+  z-index: 100;
 }
 
 @media (min-width: 800px) {
@@ -506,6 +489,30 @@ body {
   }
 }
 /* Burger Menu Links Styling */
+#burger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100%;
+  background-color: #98BEC4;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 10;
+  transition: transform 0.5s cubic-bezier(0, .52, 0, 1);
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: center; /* Center links horizontally */
+  justify-content: center; /* Center links vertically */
+}
+
+#burger-menu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+#burger-menu.show {
+  transform: translate3d(0vw, 0, 0);
+}
 #burger-menu a {
   display: inline-block; /* Maintain inline-block for alignment */
   width: auto; /* Adjust width based on content */
@@ -525,18 +532,9 @@ body {
   background-color: #403838; /* Darken button on hover */
 }
 
-/* Centering Links Container within the Burger Menu */
-#burger-menu {
-  display: flex;
-  flex-direction: column; /* Stack links vertically */
-  align-items: center; /* Center links horizontally */
-  justify-content: center; /* Center links vertically */
-  height: 100%; /* Take full height of the menu */
-}
-
 /* Adjustments for Responsive Design */
 @media (max-width: 800px) {
   #burger-menu {
-    width: 100%; /* Ensure menu takes full width on smaller screens */
+    width: 66%; /* Ensure menu takes full width on smaller screens */
   }
 }
