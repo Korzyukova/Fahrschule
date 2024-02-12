@@ -76,7 +76,7 @@ body {
 .footer-string {
   font-family: 'Raleway';
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: center;
   /* margin-bottom: 10px; */
   margin-right: 3em;
@@ -440,6 +440,9 @@ body {
     margin-right: 10px;
     padding: 0;
   }
+  .footer-info {
+    justify-content: flex-end;
+  } 
 
   .container-two-about {
     flex-direction: column;
@@ -567,3 +570,9 @@ body {
     /* Ensure menu takes full width on smaller screens */
   }
 }
+@media (max-width: 420px) {
+  .footer-copyright {
+    font-family: 'Train One', system-ui;
+    font-size: 0.5em;
+  }
+  }
