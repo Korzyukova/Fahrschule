@@ -507,17 +507,18 @@ body {
 }
 /* Burger Menu Links Styling */
 #burger-menu a {
-  display: inline-block; /* Align links next to each other */
-  text-decoration: none;
-  height: 20px; /* Set height as specified */
+  display: inline-block; /* Maintain inline-block for alignment */
+  width: auto; /* Adjust width based on content */
+  height: 40px; /* Updated height to 40px */
   background-color: #DAD6CE; /* Button background color */
-  color: #FFFFFF; /* Button text color */
-  text-align: center; /* Center text inside buttons */
-  line-height: 5px; /* Center text vertically */
-  margin: 0 auto; /* Center buttons horizontally */
-  padding: 10px; /* Increase click area and visual size */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+  color: #403838; /* Text color */
+  text-align: center; /* Horizontally center text */
+  line-height: 40px; /* Vertically center text by matching line height to button height */
+  margin: 20px 10px; /* Keep spacing between buttons */
+  padding: 0 20px; /* Horizontal padding for content breathing space */
+  border-radius: 5px; /* Rounded corners for aesthetics */
+  text-decoration: none; /* Remove text decoration */
+  transition: background-color 0.3s ease;
 }
 
 #burger-menu a:hover {

@@ -38,9 +38,9 @@ export default function Header() {
       <Image className="header-picture" alt="city" src={Munich} width="280" height="85" />
       {isOpen && (
         <div id="burger-menu" style={menuStyles}>
-          <a href="/Fahrschule">Home</a>
-          <a href="/Fahrschule/about">About</a>
-          <a href="/Fahrschule/contact">Contact</a>
+          <a href="/Fahrschule">HOME</a>
+          <a href="/Fahrschule/about">ÜBER UNS</a>
+          <a href="/Fahrschule/contact">KONTAKT</a>
         </div>
       )}
     </>
