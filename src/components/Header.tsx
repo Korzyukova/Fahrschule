@@ -16,17 +16,17 @@ export default function Header() {
       <header className='header'>
         <Image className='logo' src={logo} alt="logo" width="280" height="85" />
         <div className="links">
-          <a className="link" href="/Fahrschule">Home</a>
-          <a className="link" href="/Fahrschule/about">Über Uns</a>
-          <a className="link" href="/Fahrschule/contact">Kontakt</a>
+          <a className="link" href="/">Home</a>
+          <a className="link" href="/about">Über Uns</a>
+          <a className="link" href="/contact">Kontakt</a>
         </div>
         <button onClick={toggleMenu} className="burger-button">☰</button>
       </header>
       <Image className="header-picture" alt="city" src={Munich} width="280" height="85" />
       <div id="burger-menu" className={`${isOpen ? 'show' : 'hide'}`}>
-        <a href="/Fahrschule">HOME</a>
-        <a href="/Fahrschule/about">ÜBER UNS</a>
-        <a href="/Fahrschule/contact">KONTAKT</a>
+        <a href="/">HOME</a>
+        <a href="/about">ÜBER UNS</a>
+        <a href="/contact">KONTAKT</a>
       </div>
     </>
   );
