@@ -353,7 +353,7 @@ body {
   }
 
   .square-text-two {
-
+    font-size: 1em;
     margin-top: 0;
   }
 
@@ -366,6 +366,7 @@ body {
   .square-text-four {
     margin-bottom: 0;
     margin-top: 0;
+    font-size: 1em;
   }
 
   .container-one {
