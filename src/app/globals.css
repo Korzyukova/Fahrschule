@@ -481,6 +481,7 @@ body {
   .burger-button {
     font-size: 25px;
     border-radius: 5px;
+    top:25px
   }
 }
 
