@@ -167,6 +167,7 @@ body {
   font-weight: 700;
   font-size: 2vw;
   letter-spacing: 5px;
+  margin-top: 5vh;
 }
 
 .square-text-two {
@@ -191,6 +192,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
+  margin-bottom: 5vh;
 }
 
 .container-two-paragraphs {
@@ -345,7 +347,8 @@ body {
   }
 
   .square-text-one {
-    margin-bottom: 0;
+    font-size: 1em;
+    margin-bottom: 5px;
     margin-top: 0;
   }
 
@@ -355,7 +358,8 @@ body {
   }
 
   .square-text-three {
-    margin-bottom: 0;
+    font-size: 1em;
+    margin-bottom: 10px;
     margin-top: 0;
   }
 
