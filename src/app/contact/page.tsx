@@ -14,7 +14,7 @@ export default function Contact() {
                     <p>Kazmairstraße 46, 80339 München</p>
 
                     <p>Tel: 089/ 62043082</p>
-                    <p>Email: fahrschule-H2@gmx.de</p>
+                    <p>Email: info@fahrschule-h2.de</p>
                     <div>
                         <p className='burozeiten'>Bürozeiten:</p>
                         <p className='burozeiten'>Montag und Mittwoch:</p>
