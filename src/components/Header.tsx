@@ -7,6 +7,7 @@ import { copy } from "@/constants";
 import {
   LANGUAGE,
   LanguageParams,
+  buildPath,
   getLanguage,
   mapLanguageName,
 } from "@/app/context";
@@ -42,13 +43,19 @@ export default function Header({ params }: LanguageParams) {
       <header className="header">
         <Image className="logo" src={logo} alt="logo" width="280" height="85" />
         <div className="links">
-          <a className="link" href={`/${languageCode}/`}>
+          <a className="link" href={buildPath(pathname, `/${languageCode}/`)}>
             Home
           </a>
-          <a className="link" href={`/${languageCode}/about`}>
+          <a
+            className="link"
+            href={buildPath(pathname, `/${languageCode}/about`)}
+          >
             {copy.headerAbout[lang]}
           </a>
-          <a className="link" href={`/${languageCode}/contact`}>
+          <a
+            className="link"
+            href={buildPath(pathname, `/${languageCode}/contact`)}
+          >
             {copy.headerContact[lang]}
           </a>
           <select value={languageCode} onChange={handleLanguageChange}>
@@ -76,9 +83,15 @@ export default function Header({ params }: LanguageParams) {
         height="85"
       />
       <div id="burger-menu" className={`${isOpen ? "show" : "hide"}`}>
-        <a href={`/${languageCode}/`}>{copy.headerHome[lang]}</a>
-        <a href={`/${languageCode}/about`}>{copy.headerAbout[lang]}</a>
-        <a href={`/${languageCode}/contact`}>{copy.headerContact[lang]}</a>
+        <a href={buildPath(pathname, `/${languageCode}/`)}>
+          {copy.headerHome[lang]}
+        </a>
+        <a href={buildPath(pathname, `/${languageCode}/about`)}>
+          {copy.headerAbout[lang]}
+        </a>
+        <a href={buildPath(pathname, `/${languageCode}/contact`)}>
+          {copy.headerContact[lang]}
+        </a>
       </div>
     </>
   );

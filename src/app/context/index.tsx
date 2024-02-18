@@ -40,3 +40,11 @@ export function generateStaticParams() {
 
   return paramsArray;
 }
+
+export function buildPath(path: string, link: string) {
+  const splitPath = path.split("/");
+  if (splitPath[0] === "Fahrschule") {
+    return `${splitPath[0]}/${link}`;
+  }
+  return `/${link}`;
+}
