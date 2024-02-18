@@ -40,10 +40,3 @@ export function generateStaticParams() {
 
   return paramsArray;
 }
-
-export function buildPath(path: string, link: string) {
-  if (path.includes("Fahrschule")) {
-    return `/Fahrschule${link}`;
-  }
-  return `${link}`;
-}

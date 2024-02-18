@@ -38,24 +38,26 @@ export default function Header({ params }: LanguageParams) {
     router.push(newPath);
   };
 
+  const handleButtonClick = (page: string) => {
+    router.push(`/${languageCode}/${page}`);
+  };
+
+  const buildHandleButtonClick = (page: string) => {
+    return () => handleButtonClick(page);
+  };
+
   return (
     <>
       <header className="header">
         <Image className="logo" src={logo} alt="logo" width="280" height="85" />
         <div className="links">
-          <a className="link" href={buildPath(pathname, `/${languageCode}/`)}>
+          <a className="link" onClick={buildHandleButtonClick("/")}>
             Home
           </a>
-          <a
-            className="link"
-            href={buildPath(pathname, `/${languageCode}/about`)}
-          >
+          <a className="link" onClick={buildHandleButtonClick("/about")}>
             {copy.headerAbout[lang]}
           </a>
-          <a
-            className="link"
-            href={buildPath(pathname, `/${languageCode}/contact`)}
-          >
+          <a className="link" onClick={buildHandleButtonClick("/contact")}>
             {copy.headerContact[lang]}
           </a>
           <select value={languageCode} onChange={handleLanguageChange}>
@@ -83,13 +85,11 @@ export default function Header({ params }: LanguageParams) {
         height="85"
       />
       <div id="burger-menu" className={`${isOpen ? "show" : "hide"}`}>
-        <a href={buildPath(pathname, `/${languageCode}/`)}>
-          {copy.headerHome[lang]}
-        </a>
-        <a href={buildPath(pathname, `/${languageCode}/about`)}>
+        <a onClick={buildHandleButtonClick("/")}>{copy.headerHome[lang]}</a>
+        <a onClick={buildHandleButtonClick("/about")}>
           {copy.headerAbout[lang]}
         </a>
-        <a href={buildPath(pathname, `/${languageCode}/contact`)}>
+        <a onClick={buildHandleButtonClick("/contact")}>
           {copy.headerContact[lang]}
         </a>
       </div>
