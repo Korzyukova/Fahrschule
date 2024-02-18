@@ -7,7 +7,6 @@ import { copy } from "@/constants";
 import {
   LANGUAGE,
   LanguageParams,
-  buildPath,
   getLanguage,
   mapLanguageName,
 } from "@/app/context";
