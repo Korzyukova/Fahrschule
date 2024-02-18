@@ -1,20 +1,42 @@
-import { createContext, useContext, useState } from 'react';
-
-const languageContext = createContext('german');
-
-export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('german');
-  return (
-    <languageContext.Provider value={{ language, setLanguage }}>
-      {children}
-    </languageContext.Provider>
-  );
+export enum LANGUAGE {
+  DE = "german",
+  EN = "english",
+  RUS = "russian",
 }
 
-export const useLanguage = () => {
-  const context = useContext(languageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
+export interface LanguageParams {
+  params: { lang: string };
+}
+
+export const getLanguage = (lang: string | string[] | undefined) => {
+  switch (lang) {
+    case "en":
+      return LANGUAGE.EN;
+    case "rus":
+      return LANGUAGE.RUS;
+    default:
+      return LANGUAGE.DE;
   }
-  return context;
+};
+
+export const mapLanguageName = (lang: LANGUAGE) => {
+  switch (lang) {
+    case LANGUAGE.EN:
+      return "English";
+    case LANGUAGE.RUS:
+      return "Русский";
+    default:
+      return "Deutsch";
+  }
+};
+
+export function generateStaticParams() {
+  const languages = ["en", "de", "rus"];
+
+  // Generate a params object for each language
+  const paramsArray = languages.map((lang) => ({
+    lang: `${lang}`,
+  }));
+
+  return paramsArray;
 }
