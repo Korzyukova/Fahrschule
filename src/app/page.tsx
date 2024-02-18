@@ -1,45 +1,46 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import {copy} from '@/constants'
+import { useLanguage } from '@/app/context';
 
 export default function Home() {
+  const { language, setLanguage } = useLanguage();
+
+  const changeLanguage = (e) => {
+    setLanguage(e.target.value);
+  }
   return (
     <div className="homepage">
       <Header />
       <div className="container-one">
-        <p className="container-text">Herzlich Willkommen auf der Website der Fahrschule H2, deiner neuen Fahrschule in München.
-          Wir freuen uns über dein Interesse an unserer Fahrschule.
-          Diese Führerscheinklassen bieten wir an:
-          A, A1, A2, B, B78, B197, B196
-        </p>
+        <p className="container-text">{copy.home[language]}</p>
         <div className="red-square">
           <ul className="red-square-text">
-            <p className="square-text-one">ERÖFFNUNGSANGEBOT</p>
-            <p className="square-text-two"> BIS 15.03.2024 bekommst du</p>
-            <p className="square-text-three">250 EURO</p>
-            <p className="square-text-four">Nachlassauf
-              die Anmeldegebühr</p>
+            <p className="square-text-one">{copy.offer[language]}</p>
+            <p className="square-text-two">{copy.offerTwo[language]}</p>
+            <p className="square-text-three">{copy.offerThree[language]}</p>
+            <p className="square-text-four">{copy.offerFour[language]}</p>
           </ul>
         </div>
       </div>
       <div className="container-two">
         <div className="container-two-paragraphs">
-          <p>Wir bieten dir eine moderne und professionelle Ausbildung in Theorie und Praxis</p>
+          <p>{copy.homeTwo[language]}</p>
           <ul>
-            <li>Lern-APP</li>
-            <li>Transparente Ausbildung anhand der Ausbildungsdiagrammkarte</li>
-            <li>Gruppenarbeit</li>
-            <li>Moderne Fahrzeuge</li>
-            <li>Prüfungssimulationen</li>
-            <li>Modernen Lernmethoden</li>
+            <li>{copy.list[language]}</li>
+            <li>{copy.listTwo[language]}</li>
+            <li>{copy.listThree[language]}</li>
+            <li>{copy.listFour[language]}</li>
+            <li>{copy.listFive[language]}</li>
+            <li>{copy.listSix[language]}</li>
           </ul>
-          <p>Du hast schon einen Führerschein, aber fühlst dich nicht sicher im Straßenverkehr?</p>
-          <p>Kein Problem! Wir begleiten dich zu mehr Kompetenz im Straßenverkehr egal ob mit dem PKW oder dem Motorrad,
-            damit du wieder sicher unterwegs bist</p>
+          <p>{copy.headerThree[language]}</p>
+          <p>{copy.headerFour[language]}</p>
         </div>
         <div className="container-two-years">
           <p className="years">30</p>
-          <p className="experience">Jahre Erfahrung damit, Menschen dabei zu unterstützen, das Fahren zu erlernen.</p>
+          <p className="experience">{copy.headerFive[language]}</p>
         </div>
       </div>
 
