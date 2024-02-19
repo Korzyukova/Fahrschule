@@ -23,10 +23,8 @@ body {
 }
 
 .header-picture {
-  /* margin-top: 10px; */
   width: 93.5vw;
   height: 100%;
-  /* height: 35vh; */
 }
 
 .link {
@@ -59,7 +57,6 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  /* width: 100%;  */
   margin-top: 10vh;
   margin-bottom: 10vh;
   font-style: normal;
@@ -75,9 +72,7 @@ body {
 .footer-string {
   font-family: "Raleway";
   display: flex;
-  /* justify-content: flex-start; */
   align-items: center;
-  /* margin-bottom: 10px; */
   margin-right: 3em;
 }
 
@@ -502,7 +497,6 @@ body {
   }
 }
 
-/* Burger Menu Links Styling */
 #burger-menu {
   position: fixed;
   top: 0;
@@ -516,11 +510,8 @@ body {
   transition: transform 0.5s cubic-bezier(0, 0.52, 0, 1);
   display: flex;
   flex-direction: column;
-  /* Stack links vertically */
   align-items: center;
-  /* Center links horizontally */
   justify-content: center;
-  /* Center links vertically */
 }
 
 #burger-menu.hide {
@@ -533,40 +524,27 @@ body {
 
 #burger-menu a {
   display: inline-block;
-  /* Maintain inline-block for alignment */
   width: auto;
-  /* Adjust width based on content */
   height: 40px;
-  /* Updated height to 40px */
   background-color: #dad6ce;
-  /* Button background color */
   color: #403838;
-  /* Text color */
   text-align: center;
-  /* Horizontally center text */
   line-height: 40px;
-  /* Vertically center text by matching line height to button height */
   margin: 20px 10px;
-  /* Keep spacing between buttons */
   padding: 0 20px;
-  /* Horizontal padding for content breathing space */
   border-radius: 5px;
-  /* Rounded corners for aesthetics */
   text-decoration: none;
-  /* Remove text decoration */
   transition: background-color 0.3s ease;
 }
 
 #burger-menu a:hover {
   background-color: #403838;
-  /* Darken button on hover */
 }
 
-/* Adjustments for Responsive Design */
+
 @media (max-width: 800px) {
   #burger-menu {
     width: 66%;
-    /* Ensure menu takes full width on smaller screens */
   }
 }
 
@@ -598,27 +576,16 @@ body {
 
 .mySelectBurger {
   display: inline-block;
-  /* Maintain inline-block for alignment */
   width: auto;
-  /* Adjust width based on content */
   height: 40px;
-  /* Updated height to 40px */
   background-color: #dad6ce;
-  /* Button background color */
   color: #403838;
-  /* Text color */
   text-align: center;
-  /* Horizontally center text */
   line-height: 40px;
-  /* Vertically center text by matching line height to button height */
   margin: 20px 10px;
-  /* Keep spacing between buttons */
   padding: 0 20px;
-  /* Horizontal padding for content breathing space */
   border-radius: 5px;
-  /* Rounded corners for aesthetics */
   text-decoration: none;
-  /* Remove text decoration */
   transition: background-color 0.3s ease;
   border: none;
   font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
