@@ -81,7 +81,7 @@ export const copy = {
   offer: {
     english: "OPENING OFFER",
     german: "ERÖFFNUNGSANGEBOT",
-    russian: "СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ",
+    russian: "СКИДКА",
   },
   offerTwo: {
     english: "UP TO 15.03.2024 you will receive",
@@ -96,7 +96,7 @@ export const copy = {
   offerFour: {
     english: "discount on the registration fee",
     german: "Rabatt auf die Anmeldegebühr",
-    russian: "скидка на регистрационный взнос",
+    russian: "скидки на регистрационный взнос",
   },
   list: {
     english: "Learning APP",
