@@ -7,7 +7,7 @@ export const copy = {
   headerContact: {
     english: "Contact",
     german: "Kontakt",
-    russian: "Контакт",
+    russian: "Контакты",
   },
   headerHome: {
     english: "Home",
