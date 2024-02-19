@@ -439,6 +439,7 @@ body {
     margin-right: 10px;
     padding: 0;
   }
+
   .footer-info {
     justify-content: flex-end;
   }
@@ -568,27 +569,59 @@ body {
     /* Ensure menu takes full width on smaller screens */
   }
 }
+
 @media (max-width: 420px) {
   .footer-copyright {
     font-family: "Train One", system-ui;
     font-size: 0.5em;
   }
 }
+
 .mySelect {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vw;
-    line-height: 28px;
-    text-decoration: none;
-    color: #403838;
-    display: inline-block;
-    padding: 5px 15px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    border-radius: 10px;
-    margin-left: 1em;
-    cursor: pointer;
-    border: none; 
-    background-color: #dad6ce;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 28px;
+  text-decoration: none;
+  color: #403838;
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  margin-left: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #dad6ce;
+}
+
+.mySelectBurger {
+  display: inline-block;
+  /* Maintain inline-block for alignment */
+  width: auto;
+  /* Adjust width based on content */
+  height: 40px;
+  /* Updated height to 40px */
+  background-color: #dad6ce;
+  /* Button background color */
+  color: #403838;
+  /* Text color */
+  text-align: center;
+  /* Horizontally center text */
+  line-height: 40px;
+  /* Vertically center text by matching line height to button height */
+  margin: 20px 10px;
+  /* Keep spacing between buttons */
+  padding: 0 20px;
+  /* Horizontal padding for content breathing space */
+  border-radius: 5px;
+  /* Rounded corners for aesthetics */
+  text-decoration: none;
+  /* Remove text decoration */
+  transition: background-color 0.3s ease;
+  border: none;
+  font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+  font-style: normal;
+  font-size: medium;
 }
