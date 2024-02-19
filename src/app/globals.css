@@ -540,7 +540,6 @@ body {
   background-color: #403838;
 }
 
-
 @media (max-width: 800px) {
   #burger-menu {
     width: 66%;
@@ -587,7 +586,7 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease;
   border: none;
-  font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+  font-family: "__Inter_aaf875", "__Inter_Fallback_aaf875";
   font-style: normal;
   font-size: medium;
 }

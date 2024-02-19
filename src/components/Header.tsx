@@ -59,7 +59,11 @@ export default function Header({ params }: LanguageParams) {
           <a className="link" onClick={buildHandleButtonClick("/contact")}>
             {copy.headerContact[lang]}
           </a>
-          <select className="mySelect" value={languageCode} onChange={handleLanguageChange}>
+          <select
+            className="mySelect"
+            value={languageCode}
+            onChange={handleLanguageChange}
+          >
             {Object.keys(LANGUAGE).map((code) => {
               const lowerCode = code.toLowerCase();
               const l = LANGUAGE[code as keyof typeof LANGUAGE];
@@ -91,7 +95,11 @@ export default function Header({ params }: LanguageParams) {
         <a onClick={buildHandleButtonClick("/contact")}>
           {copy.headerContact[lang]}
         </a>
-        <select className="mySelectBurger" value={languageCode} onChange={handleLanguageChange}>
+        <select
+          className="mySelectBurger"
+          value={languageCode}
+          onChange={handleLanguageChange}
+        >
           {Object.keys(LANGUAGE).map((code) => {
             const lowerCode = code.toLowerCase();
             const l = LANGUAGE[code as keyof typeof LANGUAGE];
