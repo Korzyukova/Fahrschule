@@ -33,12 +33,12 @@ export const copy = {
   aboutThree: {
     english: "We also offer the practical lessons.",
     german: "Außerdem bieten wir den praktischen.",
-    russian: "Мы также предлагаем практические уроки.",
+    russian: "Мы предлагаем практические занятия.",
   },
   aboutFour: {
     english: "We also offer lessons in English and Russian.",
     german: "Unterricht auch in englischer und russischer Sprache an.",
-    russian: "Уроки также проводятся на английском и русском языках.",
+    russian: "Обучение также проводится на английском и русском языках.",
   },
   home: {
     english:
