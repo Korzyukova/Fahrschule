@@ -86,7 +86,7 @@ export const copy = {
   offerTwo: {
     english: "UP TO 15.03.2024 you will receive",
     german: "BIS 15.03.2024 bekommst du",
-    russian: "ДО 15.03.2024 вы получаете",
+    russian: "до 15.03.2024 вы получаете",
   },
   offerThree: {
     english: "250 EURO",
